@@ -1,0 +1,7 @@
+applications:
+  - name: PostgresToExcel_Dev
+    buildpack: java-buildpack
+    path: target/Excel-postgres-0.0.1-SNAPSHOT.jar
+    memory: 256M
+    services:
+     - ups_onereportal_postgres_service_local_2.0

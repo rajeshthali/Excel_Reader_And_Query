@@ -1,0 +1,5 @@
+applications:
+  - name: PostgresToExcel_Prod
+    buildpack: java-buildpack
+    path: target/Excel-postgres-0.0.1-SNAPSHOT.jar
+    memory: 256M
